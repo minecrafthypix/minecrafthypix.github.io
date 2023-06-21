@@ -3,7 +3,7 @@
 <script>
 var currentInnerHtml;
 var element = new Image();
-var elementWithHiddenContent = document.querySelector("#element-to-hide");
+var elementWithHiddenContent = document.querySelector("#element1");
 var innerHtml = elementWithHiddenContent.innerHTML;
 
 element.__defineGetter__("id", function() {
@@ -20,4 +20,9 @@ setInterval(function() {
 
 <body oncontextmenu="return false" onkeydown="return false;" onmousedown="return false;">invalid key</body>
 
-<body id="#element-to-hide">test </body>
+<body id="#element1">test </body>
+<script id="#element1">
+
+<script id="#element1">
+    console.log("hello)
+</script>
