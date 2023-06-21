@@ -1,3 +1,6 @@
-#Verifies and validates user infos for a discord server.
+# Verifies and validates user data for discord server.
+- Uses Microsoft's OAuth service
+- Recieves data from the OAuth
+- Verifies user and links the account to their discord.
 
-#Uses oath to recieve user's name and nicknames/links them to their account.
+# Made using github pages.
