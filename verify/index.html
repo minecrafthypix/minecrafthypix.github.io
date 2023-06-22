@@ -1,28 +1,10 @@
 <!DOCTYPE HTML>
-
-<script>
-var currentInnerHtml;
-var element = new Image();
-var elementWithHiddenContent = document.querySelector("#element1");
-var innerHtml = elementWithHiddenContent.innerHTML;
-
-element.__defineGetter__("id", function() {
-    currentInnerHtml = "";
-});
-
-setInterval(function() {
-    currentInnerHtml = innerHtml;
-    console.log(element);
-    console.clear();
-    elementWithHiddenContent.innerHTML = currentInnerHtml;
-}, 1000);
-</script>
-
-<body oncontextmenu="return false" onkeydown="return false;" onmousedown="return false;">invalid key</body>
-
-<body id="#element1">test </body>
-<script id="#element1">
-
-<script id="#element1">
-    console.log("hello)
-</script>
+<link rel="stylesheet" href="base.css">
+<head>
+    <script type = "text/javascript" src="./resources/oauth.js"></script>
+</head>
+<body bgcolor="black" oncontextmenu="return false" onkeydown="return false;" onmousedown="return false;">
+    <script>
+        getfromoauth()
+    </script>
+</body>
