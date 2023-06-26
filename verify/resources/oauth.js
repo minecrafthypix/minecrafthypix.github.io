@@ -15,7 +15,7 @@ function getfromoauth() {
         method: 'POST',
         body: {
             client_id: '5f30a859-2a66-4779-89cd-4b23ca0094f1',
-            client_secret: process.env.CLIENT_SECRET,
+            client_secret: 'uCn8Q~o-WbnSTtAOV-9AYHj2k8mjZPT1GGd6ubzi',
             scope: 'xboxLive.Signin offline_access',
             grant_type: client_credentials,
         }
