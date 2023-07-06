@@ -2,3 +2,14 @@
 test.env
 passwords.env
 .github
+.passwords
+.well-known/
+.well-known/microsoft-identity-association.json
+node_modules/
+verify/
+env
+.nojekyll
+.gitignore
+package-lock.json
+package.json
+web.config
