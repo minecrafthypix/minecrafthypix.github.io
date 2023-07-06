@@ -1,0 +1,12 @@
+.env
+test.env
+passwords.env
+.github
+.passwords
+node_modules/
+env
+.nojekyll
+.gitignore
+package-lock.json
+package.json
+web.config
